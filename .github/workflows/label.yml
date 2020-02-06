@@ -14,6 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: antoninklopp/labeler
+    - uses: antoninklopp/labeler@v1
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
